@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.npm-cache/
+.edge-*/
+qa-downloads*/
+vite.*.log
+.devpost-*/
+
+# Local QA artifacts
+design-comparison*.png
+lessonbox-desktop.png
+lessonbox-mobile*.png
+design-qa.md
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.npmrc
+AGENTS.md
