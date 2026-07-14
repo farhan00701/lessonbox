@@ -43,6 +43,12 @@ LessonBox helps one teacher reuse the materials they already trust, teach in the
 - Browser-native Blob export for offline lessons
 - Codex for product design, implementation, testing, and iteration
 
+## How Codex and GPT-5.6 were used
+
+Codex, powered by GPT-5.6, was the coding agent used throughout the build. It helped turn the product brief and selected mockup into the responsive React interface, implement the offline export and interactive states, diagnose layout issues, run desktop and mobile visual checks, and verify the production build. Key product decisions—teacher-first workflow, visible source references, Bangla-first demo content, and honest prototype boundaries—were reviewed and chosen by the founder during that loop.
+
+GPT-5.6 is used through Codex during development; the current browser prototype does **not** claim to call an AI model at runtime. Dynamic PDF-to-lesson generation with the OpenAI API is the next integration milestone.
+
 ## Run locally
 
 ```bash
@@ -75,4 +81,3 @@ npm run build
 ## Build Week
 
 Created for the OpenAI Codex Build Week 2026 Education track.
-

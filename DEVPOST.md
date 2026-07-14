@@ -14,7 +14,7 @@ LessonBox gives a teacher one focused workflow: add a lesson PDF, select the gra
 
 ## How we built it
 
-The prototype uses React, Vite, Phosphor Icons, responsive CSS, and browser-native file export. Codex supported the product design and implementation loop: translating the product brief into a teacher workspace, building interactions, testing desktop and mobile layouts, and validating the production build. The current demo uses structured sample content to make the complete experience reliable; the next integration step is PDF extraction plus the OpenAI Responses API for dynamic, source-verified lesson generation.
+The prototype uses React, Vite, Phosphor Icons, responsive CSS, and browser-native file export. Codex, powered by GPT-5.6, supported the complete product design and implementation loop: translating the brief and selected mockup into a teacher workspace, building interactions, diagnosing layout issues, testing desktop and mobile views, and validating the production build. The current demo uses structured sample content to make the complete experience reliable; it does not claim to call a model at runtime. The next integration step is PDF extraction plus the OpenAI Responses API for dynamic, source-verified lesson generation.
 
 ## Challenges we ran into
 
@@ -39,4 +39,3 @@ Next we will connect PDF parsing and the OpenAI API, generate citation-linked le
 ## Built with
 
 React, Vite, JavaScript, CSS, Phosphor Icons, Codex
-
